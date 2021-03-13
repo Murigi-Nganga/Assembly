@@ -1,8 +1,5 @@
 ;Loop to print 3 arrays
 
-section .bss
-    sum resb 1
-
 section .data
     msg1  db 'First array:', 0xa
     len1  equ $- msg1
